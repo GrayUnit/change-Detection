@@ -1,2 +1,2 @@
 <p>{{ check() }}</p>
-<app-image [src]="getPonyImageUrl()"></app-image>
+<img *ngIf="color$ | async as color" [src]="'https://cdn.jsdelivr.net/gh/coderbase-it/angular-cd-pp@master/src/assets/images/pony-' + color + '-running.gif'">
