@@ -1,11 +1,1 @@
-<div class="container">
-  <h3>Parent component</h3>
-  Name : <input type="text" [(ngModel)]="person.name">
-  <br> Age :
-  <button (click)="person.age = person.age + 1">+</button>
-  {{ person.age }}
-  <button (click)="person.age = person.age - 1">-</button>
-  <pre>{{ person | json }}</pre>
-  <app-child [person]="person"></app-child>
-  <button (click)="reassign()">Re-assigné</button>
-</div>
+<app-race></app-race>

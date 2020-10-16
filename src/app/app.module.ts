@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
 import { FormsModule } from '@angular/forms';
+import { RaceComponent } from './race/race.component';
+import { PoneyComponent } from './poney/poney.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChildComponent
+    ChildComponent,
+    RaceComponent,
+    PoneyComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
